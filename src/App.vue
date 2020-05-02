@@ -5,9 +5,10 @@
       <router-link to="/about">About</router-link> -->
       <!-- Named routes -->
       <!-- If you have to change change it in one place -->
-      <router-link :to="{ name: 'event-list' }">Event List</router-link> |
-      <router-link :to="{ name: 'event-show' }">Show Event</router-link>|
-      <router-link :to="{ name: 'event-create' }">Event Create</router-link>
+      <router-link :to="{ name: 'event-list' }">List</router-link> |
+      <router-link :to="{ name: 'event-create' }">Event Create</router-link>|
+      
+    
     </div>
     <router-view />
   </div>

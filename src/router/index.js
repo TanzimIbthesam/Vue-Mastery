@@ -6,6 +6,7 @@ import VueRouter from "vue-router";
 import EventList from "../views/EventList.vue";
 import EventCreate from "../views/EventCreate.vue";
 import EventShow from "../views/EventShow.vue";
+import EventCard from "../components/EventCard.vue";
 
 
 
@@ -36,6 +37,13 @@ const router = new VueRouter({
       name: "event-show",
       component: EventShow,
       props:true
+
+    },
+    {
+      path: "/event-card",
+      name: "event-card",
+      component: EventCard,
+     
 
     },
     {
